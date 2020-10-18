@@ -1,0 +1,131 @@
+<nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom headroom--top headroom--pinned">
+  <div class="container">
+    <a class="navbar-brand mr-lg-5" href="javascript:void(0);">
+      Compilado de Referências - Atomicc Hacktoberfest
+    </a>
+    <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed"
+          [attr.aria-expanded]="!isCollapsed" aria-controls="navbar_global">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse" id="navbar_global" [ngbCollapse]="isCollapsed">
+      <div class="navbar-collapse-header">
+        <div class="row">
+          <div class="col-6 collapse-brand">
+            <a [routerLink]="['/home']">
+              <img src="./assets/img/brand/blue.png">
+            </a>
+          </div>
+          <div class="col-6 collapse-close">
+            <button type="button" class="navbar-toggler" (click)="isCollapsed = !isCollapsed"
+                  [attr.aria-expanded]="!isCollapsed" aria-controls="navbar_global">
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+        <li class="nav-item dropdown">
+          <a class="nav-link no-caret" data-toggle="dropdown" role="button">
+            <i class="ni ni-ui-04 d-lg-none"></i>
+            <span class="nav-link-inner--text">MENU</span>
+          </a>
+          <div class="dropdown-menu-xl dropdown-menu" >
+            <div class="dropdown-menu-inner">
+              <a routerLinkActive="active" [routerLink]="['documentation/tutorial']" class="media d-flex align-items-center">
+                <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
+                  <i class="ni ni-spaceship"></i>
+                </div>
+                <div class="media-body ml-3">
+                  <h6 class="heading text-primary mb-md-1">Consulte referências</h6>
+                  <p class="description d-none d-md-inline-block mb-0">Pesquise por assuntos e te mostraremos uma lista de links à respeito.</p>
+                </div>
+              </a>
+              <a routerLinkActive="active" href="/#contribuicao" class="media d-flex align-items-center">
+                <div class="icon icon-shape bg-gradient-info rounded-circle text-white">
+                  <img src="./assets/icons/ic_extension.svg" height="25" alt="">
+                </div>
+                <div class="media-body ml-3">
+                  <h5 class="heading text-info mb-md-1">Contribuição</h5>
+                  <p class="description d-none d-md-inline-block mb-0">Entenda detalhadamente como contribuir neste repositório.</p>
+                </div>
+              </a>
+              <a routerLinkActive="active" href="/#hacktoberfest" class="media d-flex align-items-center">
+                <div class="icon icon-shape bg-gradient-default rounded-circle text-white">
+                  <img src="./assets/icons/ic_extension.svg" height="25" alt="">
+                </div>
+                <div class="media-body ml-3">
+                  <h5 class="heading text-default mb-md-1">Hacktoberfest</h5>
+                  <p class="description d-none d-md-inline-block mb-0">Entenda o que é e como funciona.</p>
+                </div>
+              </a>
+              <a routerLinkActive="active" href="/#equipe" class="media d-flex align-items-center">
+                <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
+                  <img src="./assets/icons/multiple-11-2.svg" height="25" alt="">
+                </div>
+                <div class="media-body ml-3">
+                  <h6 class="heading text-warning mb-md-1">Idealização e curadoria</h6>
+                  <p class="description d-none d-md-inline-block mb-0">Conheça quem idealizou e desenvolveu essa ideia, e também quem fará a curadoria dos pull requests.</p>
+                </div>
+              </a>
+              <a routerLinkActive="active" href="/homepage/#atomiccstudio" class="media d-flex align-items-center">
+                <div class="icon icon-shape bg-gradient-success rounded-circle text-white">
+                  <i class="ni ni-atom"></i>
+                </div>
+                <div class="media-body ml-3">
+                  <h5 class="heading text-success mb-md-1">Atomicc Studio</h5>
+                  <p class="description d-none d-md-inline-block mb-0">Conheça mais sobre o Atomicc Studio, escritório no qual a equipe trabalha.</p>
+                </div>
+              </a>
+              <a routerLinkActive="active" href="/#atomiccas" class="media d-flex align-items-center">
+                <div class="icon icon-shape bg-gradient-danger rounded-circle text-white">
+                  <img src="./assets/icons/ic_face.svg" height="28" alt="">
+                </div>
+                <div class="media-body ml-3">
+                  <h5 class="heading text-danger mb-md-1">Atomiccas</h5>
+                  <p class="description d-none d-md-inline-block mb-0">Conheça mais sobre o Atomiccas, coletivo de mulheres profissionais da tecnologia no qual a equipe é integrante.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link no-caret" data-toggle="dropdown" role="button">
+            <i class="ni ni-collection d-lg-none"></i>
+            <span class="nav-link-inner--text">EQUIPE</span>
+          </a>
+          <div class="dropdown-menu">
+            <a [routerLink]="['/user-profile/elaine']" class="dropdown-item">Elaine Manoelle</a>
+            <a [routerLink]="['/user-profile/tathi']" class="dropdown-item">Tathiane Pinto</a>
+            <a [routerLink]="['/user-profile/myllena']" class="dropdown-item">Myllena Almeida</a>
+            <a [routerLink]="['/user-profile/ana']" class="dropdown-item">Ana Elisa</a>
+            <a [routerLink]="['/user-profile/mercia']" class="dropdown-item">Mércia Oliveira</a>
+            <a [routerLink]="['/user-profile/camila']" class="dropdown-item">Camila Rose</a>
+          </div>
+        </li>
+      </ul>
+      <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+        <li class="nav-item">
+          <a class="nav-link nav-link-icon" href="https://linkedin.com/in/elainemanoelle" target="_blank" data-toggle="tooltip" title="Follow us on Twitter">
+            <i class="fa fa-linkedin-square"></i>
+            <span class="nav-link-inner--text d-lg-none">Linkedin</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-link-icon" href="javascript:void(0)" target="_blank" data-toggle="tooltip" title="Star us on Github">
+            <i class="fa fa-github"></i>
+            <span class="nav-link-inner--text d-lg-none">Github</span>
+          </a>
+        </li>
+        <li class="nav-item d-none d-lg-block ml-lg-4">
+          <a href="javascript:void(0)" class="btn btn-neutral btn-icon">
+            <span class="btn-inner--icon">
+              <i class="fa fa-code mr-2"></i>
+            </span>
+            <span class="nav-link-inner--text">Style guide</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

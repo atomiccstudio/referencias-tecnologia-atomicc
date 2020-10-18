@@ -1,0 +1,37 @@
+import { ApplicationRef, ComponentFactoryResolver, Injector, NgZone, RendererFactory2 } from '@angular/core';
+import { ScrollBar } from '../util/scrollbar';
+import { NgbModalRef } from './modal-ref';
+import * as ɵngcc0 from '@angular/core';
+export declare class NgbModalStack {
+    private _applicationRef;
+    private _injector;
+    private _document;
+    private _scrollBar;
+    private _rendererFactory;
+    private _ngZone;
+    private _activeWindowCmptHasChanged;
+    private _ariaHiddenValues;
+    private _backdropAttributes;
+    private _modalRefs;
+    private _windowAttributes;
+    private _windowCmpts;
+    constructor(_applicationRef: ApplicationRef, _injector: Injector, _document: any, _scrollBar: ScrollBar, _rendererFactory: RendererFactory2, _ngZone: NgZone);
+    open(moduleCFR: ComponentFactoryResolver, contentInjector: Injector, content: any, options: any): NgbModalRef;
+    dismissAll(reason?: any): void;
+    hasOpenModals(): boolean;
+    private _attachBackdrop;
+    private _attachWindowComponent;
+    private _applyWindowOptions;
+    private _applyBackdropOptions;
+    private _getContentRef;
+    private _createFromTemplateRef;
+    private _createFromString;
+    private _createFromComponent;
+    private _setAriaHidden;
+    private _revertAriaHidden;
+    private _registerModalRef;
+    private _registerWindowCmpt;
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<NgbModalStack>;
+}
+
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibW9kYWwtc3RhY2suZC50cyIsInNvdXJjZXMiOlsibW9kYWwtc3RhY2suZC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7OztBQUdBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUE2QkEiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBBcHBsaWNhdGlvblJlZiwgQ29tcG9uZW50RmFjdG9yeVJlc29sdmVyLCBJbmplY3RvciwgTmdab25lLCBSZW5kZXJlckZhY3RvcnkyIH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XG5pbXBvcnQgeyBTY3JvbGxCYXIgfSBmcm9tICcuLi91dGlsL3Njcm9sbGJhcic7XG5pbXBvcnQgeyBOZ2JNb2RhbFJlZiB9IGZyb20gJy4vbW9kYWwtcmVmJztcbmV4cG9ydCBkZWNsYXJlIGNsYXNzIE5nYk1vZGFsU3RhY2sge1xuICAgIHByaXZhdGUgX2FwcGxpY2F0aW9uUmVmO1xuICAgIHByaXZhdGUgX2luamVjdG9yO1xuICAgIHByaXZhdGUgX2RvY3VtZW50O1xuICAgIHByaXZhdGUgX3Njcm9sbEJhcjtcbiAgICBwcml2YXRlIF9yZW5kZXJlckZhY3Rvcnk7XG4gICAgcHJpdmF0ZSBfbmdab25lO1xuICAgIHByaXZhdGUgX2FjdGl2ZVdpbmRvd0NtcHRIYXNDaGFuZ2VkO1xuICAgIHByaXZhdGUgX2FyaWFIaWRkZW5WYWx1ZXM7XG4gICAgcHJpdmF0ZSBfYmFja2Ryb3BBdHRyaWJ1dGVzO1xuICAgIHByaXZhdGUgX21vZGFsUmVmcztcbiAgICBwcml2YXRlIF93aW5kb3dBdHRyaWJ1dGVzO1xuICAgIHByaXZhdGUgX3dpbmRvd0NtcHRzO1xuICAgIGNvbnN0cnVjdG9yKF9hcHBsaWNhdGlvblJlZjogQXBwbGljYXRpb25SZWYsIF9pbmplY3RvcjogSW5qZWN0b3IsIF9kb2N1bWVudDogYW55LCBfc2Nyb2xsQmFyOiBTY3JvbGxCYXIsIF9yZW5kZXJlckZhY3Rvcnk6IFJlbmRlcmVyRmFjdG9yeTIsIF9uZ1pvbmU6IE5nWm9uZSk7XG4gICAgb3Blbihtb2R1bGVDRlI6IENvbXBvbmVudEZhY3RvcnlSZXNvbHZlciwgY29udGVudEluamVjdG9yOiBJbmplY3RvciwgY29udGVudDogYW55LCBvcHRpb25zOiBhbnkpOiBOZ2JNb2RhbFJlZjtcbiAgICBkaXNtaXNzQWxsKHJlYXNvbj86IGFueSk6IHZvaWQ7XG4gICAgaGFzT3Blbk1vZGFscygpOiBib29sZWFuO1xuICAgIHByaXZhdGUgX2F0dGFjaEJhY2tkcm9wO1xuICAgIHByaXZhdGUgX2F0dGFjaFdpbmRvd0NvbXBvbmVudDtcbiAgICBwcml2YXRlIF9hcHBseVdpbmRvd09wdGlvbnM7XG4gICAgcHJpdmF0ZSBfYXBwbHlCYWNrZHJvcE9wdGlvbnM7XG4gICAgcHJpdmF0ZSBfZ2V0Q29udGVudFJlZjtcbiAgICBwcml2YXRlIF9jcmVhdGVGcm9tVGVtcGxhdGVSZWY7XG4gICAgcHJpdmF0ZSBfY3JlYXRlRnJvbVN0cmluZztcbiAgICBwcml2YXRlIF9jcmVhdGVGcm9tQ29tcG9uZW50O1xuICAgIHByaXZhdGUgX3NldEFyaWFIaWRkZW47XG4gICAgcHJpdmF0ZSBfcmV2ZXJ0QXJpYUhpZGRlbjtcbiAgICBwcml2YXRlIF9yZWdpc3Rlck1vZGFsUmVmO1xuICAgIHByaXZhdGUgX3JlZ2lzdGVyV2luZG93Q21wdDtcbn1cbiJdfQ==
