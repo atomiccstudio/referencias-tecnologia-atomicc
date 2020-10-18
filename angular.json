@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "argon-design-system-angular": {
+    "referencias-tecnologia-atomicc": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/argon-design-system-angular",
+            "outputPath": "dist/referencias-tecnologia-atomicc",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -51,18 +51,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "argon-design-system-angular:build"
+            "browserTarget": "referencias-tecnologia-atomicc:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "argon-design-system-angular:build:production"
+              "browserTarget": "referencias-tecnologia-atomicc:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "argon-design-system-angular:build"
+            "browserTarget": "referencias-tecnologia-atomicc:build"
           }
         },
         "test": {
@@ -96,7 +96,7 @@
         }
       }
     },
-    "argon-design-system-angular-e2e": {
+    "referencias-tecnologia-atomicc-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -104,11 +104,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "argon-design-system-angular:serve"
+            "devServerTarget": "referencias-tecnologia-atomicc:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "argon-design-system-angular:serve:production"
+              "devServerTarget": "referencias-tecnologia-atomicc:serve:production"
             }
           }
         },
@@ -124,7 +124,7 @@
       }
     }
   },
-  "defaultProject": "argon-design-system-angular",
+  "defaultProject": "referencias-tecnologia-atomicc",
   "cli": {
     "analytics": false
   }
