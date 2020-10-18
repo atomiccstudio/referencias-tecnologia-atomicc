@@ -3,12 +3,12 @@ import { CommonModule, } from '@angular/common';
 import { BrowserModule  } from '@angular/platform-browser';
 import { Routes, RouterModule } from '@angular/router';
 
-import { HomeComponent } from './home/home.component';
+import { StyleGuideComponent } from './style-guide/style-guide.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { ProfileComponent } from './profile/profile.component';
 
 const routes: Routes =[
-    { path: 'style-guide',             component: HomeComponent },
+    { path: 'style-guide',             component: StyleGuideComponent },
     { path: 'homepage',             component: HomepageComponent },
     { path: 'user-profile',     component: ProfileComponent },
     { path: '', redirectTo: 'homepage', pathMatch: 'full' }
