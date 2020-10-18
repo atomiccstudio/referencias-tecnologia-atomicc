@@ -1,0 +1,28 @@
+import { NgModule } from '@angular/core';
+import { CommonModule, } from '@angular/common';
+import { BrowserModule  } from '@angular/platform-browser';
+import { Routes, RouterModule } from '@angular/router';
+
+import { HomeComponent } from './home/home.component';
+import { HomepageComponent } from './homepage/homepage.component';
+import { ProfileComponent } from './profile/profile.component';
+
+const routes: Routes =[
+    { path: 'style-guide',             component: HomeComponent },
+    { path: 'homepage',             component: HomepageComponent },
+    { path: 'user-profile',     component: ProfileComponent },
+    { path: '', redirectTo: 'homepage', pathMatch: 'full' }
+];
+
+@NgModule({
+  imports: [
+    CommonModule,
+    BrowserModule,
+    RouterModule.forRoot(routes,{
+      useHash: true
+    })
+  ],
+  exports: [
+  ],
+})
+export class AppRoutingModule { }
