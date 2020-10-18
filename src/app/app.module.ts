@@ -7,12 +7,12 @@ import { AppRoutingModule } from './app.routing';
 
 import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
-import { HomeComponent } from './home/home.component';
+import { StyleGuideComponent } from './style-guide/style-guide.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 
-import { HomeModule } from './home/home.module';
+import { StyleGuideModule } from './style-guide/style-guide.module';
 
 @NgModule({
   declarations: [
@@ -28,7 +28,7 @@ import { HomeModule } from './home/home.module';
     FormsModule,
     RouterModule,
     AppRoutingModule,
-    HomeModule
+    StyleGuideModule
   ],
   providers: [],
   bootstrap: [AppComponent]
