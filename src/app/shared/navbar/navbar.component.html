@@ -25,20 +25,20 @@
         </div>
       </div>
       <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
-        <li class="nav-item dropdown">
+        <li *ngIf="isHome()" class="nav-item dropdown">
           <a class="nav-link no-caret" data-toggle="dropdown" role="button">
             <i class="ni ni-ui-04 d-lg-none"></i>
             <span class="nav-link-inner--text">MENU</span>
           </a>
           <div class="dropdown-menu-xl dropdown-menu" >
             <div class="dropdown-menu-inner">
-              <a routerLinkActive="active" [routerLink]="['documentation/tutorial']" class="media d-flex align-items-center">
+              <a routerLinkActive="active" href="/#pesquisa" class="media d-flex align-items-center">
                 <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
                   <i class="ni ni-spaceship"></i>
                 </div>
                 <div class="media-body ml-3">
                   <h6 class="heading text-primary mb-md-1">Consulte referências</h6>
-                  <p class="description d-none d-md-inline-block mb-0">Pesquise por assuntos e te mostraremos uma lista de links à respeito.</p>
+                  <p class="description d-none d-md-inline-block mb-0">Pesquise por assuntos (palavras-chave) e te mostraremos uma lista de links à respeito.</p>
                 </div>
               </a>
               <a routerLinkActive="active" href="/#contribuicao" class="media d-flex align-items-center">
@@ -68,7 +68,7 @@
                   <p class="description d-none d-md-inline-block mb-0">Conheça quem idealizou e desenvolveu essa ideia, e também quem fará a curadoria dos pull requests.</p>
                 </div>
               </a>
-              <a routerLinkActive="active" href="/homepage/#atomiccstudio" class="media d-flex align-items-center">
+              <a routerLinkActive="active" href="#atomiccstudio" class="media d-flex align-items-center">
                 <div class="icon icon-shape bg-gradient-success rounded-circle text-white">
                   <i class="ni ni-atom"></i>
                 </div>
@@ -112,12 +112,12 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link nav-link-icon" href="javascript:void(0)" target="_blank" data-toggle="tooltip" title="Star us on Github">
+          <a class="nav-link nav-link-icon" href="https://github.com/atomiccstudio/referencias-tecnologia-atomicc" target="_blank" data-toggle="tooltip" title="Star us on Github">
             <i class="fa fa-github"></i>
             <span class="nav-link-inner--text d-lg-none">Github</span>
           </a>
         </li>
-        <li class="nav-item d-none d-lg-block ml-lg-4">
+        <li *ngIf="isHome()" class="nav-item d-none d-lg-block ml-lg-4">
           <a [routerLink]="['/style-guide']" class="btn btn-neutral btn-icon">
             <span class="btn-inner--icon">
               <i class="fa fa-code mr-2"></i>

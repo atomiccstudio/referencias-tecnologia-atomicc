@@ -2,11 +2,11 @@
   <div class="container">
     <div class="row row-grid align-items-center" [ngClass]="{'my-md': getPath()!=='/user-profile' && getPath()!=='/register' && getPath()!=='/login', 'mb-5':getPath()==='/user-profile' || getPath()==='/register' || getPath()==='/login'}">
       <div class="col-lg-6">
-        <h3 class="text-primary font-weight-light mb-2">Obrigada por estar aqui!</h3>
+        <h3 class="text-primary font-weight-light mb-2">Gratidão por estar aqui!</h3>
         <h4 class="mb-0 font-weight-light">Por favor ajude divulgando este projeto nas suas redes sociais</h4>
       </div>
       <div class="col-lg-6 text-lg-center btn-wrapper">
-        <a target="_blank" href="#" class="btn btn-neutral btn-icon-only btn-github btn-round btn-lg" ngbTooltip="Dê um star nesse repositório no Github">
+        <a target="_blank" href="https://github.com/atomiccstudio/referencias-tecnologia-atomicc" class="btn btn-neutral btn-icon-only btn-github btn-round btn-lg" ngbTooltip="Dê um star nesse repositório no Github">
           <i class="fa fa-github"></i>
         </a>
       </div>
@@ -16,16 +16,13 @@
       <div class="col-md-6">
         <div class="copyright">
           &copy; {{test | date: 'yyyy'}}
-          <a href="javascript:void(0)">Atomiccas  & Atomicc Studio</a>.
+          <a href="javascript:void(0)">Atomiccas & Atomicc Studio</a>.
         </div>
       </div>
       <div class="col-md-6">
         <ul class="nav nav-footer justify-content-end">
           <li class="nav-item">
-            <a href="/#consulta" class="nav-link" target="_blank">Consulta</a>
-          </li>
-          <li class="nav-item">
-            <a href="/#equipe" class="nav-link">Sobre nós</a>
+            <a [routerLink]="['homepage']" target="_blank" class="nav-link" target="_blank">Aplicação</a>
           </li>
           <li class="nav-item">
             <a href="https://github.com/atomiccstudio/referencias-tecnologia-atomicc" class="nav-link" target="_blank">Repositório</a>
