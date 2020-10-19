@@ -19,12 +19,24 @@ const ELEMENT_DATA: Rerencia[] = getArrays['links'];
 export class HomepageComponent implements OnInit {
   displayedColumns: string[] = ['title', 'type', 'keywords', 'url'];
   dataSource = ELEMENT_DATA;
-  referencias = getArrays['links'];
+  searchParams: string = '';
 
   constructor() { }
 
   ngOnInit() {
-    console.log('LADY', this.dataSource, ELEMENT_DATA);
+  }
+
+  filterLinks() {
+    if (this.searchParams && this.searchParams.length > 2) {
+      this.dataSource = this.dataSource.filter(item => {
+        if (item.title.includes(this.searchParams)  || item.type.includes(this.searchParams) || item.keywords.includes(this.searchParams) || item.url.includes(this.searchParams)) {
+          return true;
+        }
+      });
+    } else {
+      this.dataSource = getArrays['links'];
+    }
+    
   }
 
 }
