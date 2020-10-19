@@ -1,4 +1,14 @@
 import { Component, OnInit } from '@angular/core';
+import getArrays from '../datasource/referencias';
+
+export interface Rerencia {
+  title: string;
+  type: string;
+  keywords: Array<string>;
+  url: string;
+}
+
+const ELEMENT_DATA: Rerencia[] = getArrays['links'];
 
 @Component({
     selector: 'app-homepage',
@@ -7,11 +17,14 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class HomepageComponent implements OnInit {
-  focus: any;
-  focus1: any;
+  displayedColumns: string[] = ['title', 'type', 'keywords', 'url'];
+  dataSource = ELEMENT_DATA;
+  referencias = getArrays['links'];
 
   constructor() { }
 
-  ngOnInit() {}
+  ngOnInit() {
+    console.log('LADY', this.dataSource, ELEMENT_DATA);
+  }
 
 }
