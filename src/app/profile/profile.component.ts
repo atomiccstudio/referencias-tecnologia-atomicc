@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from "@angular/router";
+import getArrays from '../datasource/team';
 
 @Component({
     selector: 'app-profile',
@@ -7,9 +9,20 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class ProfileComponent implements OnInit {
+    data;
+    person:  string;
+    team = getArrays['team'];
 
-    constructor() { }
+    constructor(private route: ActivatedRoute) { }
 
-    ngOnInit() {}
+    ngOnInit() {
+        this.route.paramMap.subscribe(params => {
+            this.person = this.route.snapshot.paramMap.get("person");
+            this.data = this.team.find(item => {
+                return item.key === this.person;
+            });
+            console.log('LADY', this.data, this.team);
+        });
+    }
 
 }

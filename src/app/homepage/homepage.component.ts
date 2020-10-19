@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import getArrays from '../datasource/referencias';
+import getArrays from '../datasource/references';
 
 export interface Rerencia {
   title: string;
