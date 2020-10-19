@@ -21,7 +21,6 @@ export class ProfileComponent implements OnInit {
             this.data = this.team.find(item => {
                 return item.key === this.person;
             });
-            console.log('LADY', this.data, this.team);
         });
     }
 
