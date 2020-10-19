@@ -4,15 +4,16 @@ import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app.routing';
+import { MaterialModule } from './material.module';
 
 import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
-import { StyleGuideComponent } from './style-guide/style-guide.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 
 import { StyleGuideModule } from './style-guide/style-guide.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,9 @@ import { StyleGuideModule } from './style-guide/style-guide.module';
     FormsModule,
     RouterModule,
     AppRoutingModule,
-    StyleGuideModule
+    StyleGuideModule,
+    BrowserAnimationsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -310,10 +310,10 @@
       </div>
     </div>
   </section>
-  <section id="pesquisa" class="section pb-0 bg-gradient-warning">
+  <section id="pesquisa" class="section pt-1 pb-3 bg-gradient-warning">
     <div class="container">
-      <div class="row py-5 row-grid align-items-center">
-        <div class="col-lg-6 order-lg-1">
+      <div class="row pt-5 row-grid align-items-center">
+        <div class="col-lg-12 order-lg-1">
           <div class="d-flex px-3">
             <div>
               <div
@@ -323,11 +323,41 @@
               </div>
             </div>
             <div class="pl-4">
-              <h4 class="display-3 text-white">Pesquise Referências por assunto</h4>
+              <h4 class="display-3 text-white">Pesquise referências por assunto</h4>
               <p class="text-white">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In diam mi, tristique eget ullamcorper nec, efficitur luctus dui.
               </p>
             </div>
+          </div>
+        </div>
+      </div>
+      <div class="row pb-5 mb-5">
+        <div class="col-lg-12">
+          <div class="row">
+            <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+              <ng-container matColumnDef="title">
+                <th mat-header-cell *matHeaderCellDef class="pr-5"> Título </th>
+                <td mat-cell *matCellDef="let element" class="pr-5"> {{element.title}} </td>
+              </ng-container>
+            
+              <ng-container matColumnDef="type">
+                <th mat-header-cell *matHeaderCellDef class="pr-5"> Tipo </th>
+                <td mat-cell *matCellDef="let element" class="pr-5"> {{element.type}} </td>
+              </ng-container>
+             
+              <ng-container matColumnDef="keywords">
+                <th mat-header-cell *matHeaderCellDef class="pr-5"> Assuntos </th>
+                <td mat-cell *matCellDef="let element" class="pr-5"> {{element.keywords}} </td>
+              </ng-container>
+            
+              <ng-container matColumnDef="url">
+                <th mat-header-cell *matHeaderCellDef> URL </th>
+                <td mat-cell *matCellDef="let element"> <a href="{{element.url}}" target="_blank">{{element.url}}</a> </td>
+              </ng-container>
+            
+              <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+              <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+            </table>
           </div>
         </div>
       </div>
