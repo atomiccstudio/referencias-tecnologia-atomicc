@@ -10,7 +10,7 @@ import { ProfileComponent } from './profile/profile.component';
 const routes: Routes =[
     { path: 'style-guide',             component: StyleGuideComponent },
     { path: 'homepage',             component: HomepageComponent },
-    { path: 'user-profile',     component: ProfileComponent },
+    { path: 'profile/:person',     component: ProfileComponent },
     { path: '', redirectTo: 'homepage', pathMatch: 'full' }
 ];
 
