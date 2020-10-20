@@ -78,6 +78,15 @@ export class AngularSectionComponent implements OnInit {
       this.model2 = this.model1;
     }
   }
+
+  selectMyDate(event) {
+
+  }
+
+  onDateSelection(event) {
+    
+  }
+
   ngOnInit() {
   }
 
