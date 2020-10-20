@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "postinstall": "ng build --aot --prod",
+    "heroku-postbuild": "ng build --prod",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -14,6 +14,8 @@
   "dependencies": {
     "@angular/animations": "9.0.5",
     "@angular/cdk": "^9.2.4",
+    "@angular/cli": "9.0.5",
+    "@angular/compiler-cli": "9.0.5",
     "@angular/common": "9.0.5",
     "@angular/compiler": "9.0.5",
     "@angular/core": "9.0.5",
@@ -33,13 +35,12 @@
     "popper.js": "1.14.7",
     "rxjs": "6.5.4",
     "rxjs-compat": "6.5.4",
+    "typescript": "3.7.5",
     "zone.js": "0.10.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "0.900.5",
     "@angular/cli": "9.0.5",
-    "@angular/compiler-cli": "9.0.5",
-    "@angular/language-service": "9.0.5",
     "@types/jasmine": "3.5.8",
     "@types/jasminewd2": "2.0.8",
     "@types/node": "13.9.0",
@@ -54,11 +55,10 @@
     "prettier": "2.1.2",
     "protractor": "5.4.3",
     "ts-node": "8.6.2",
-    "tslint": "6.0.0",
-    "typescript": "3.7.5"
+    "tslint": "6.0.0"
   },
   "engines": {
-    "node": "10.21.0",
-    "npm": "6.14.4"
+    "node": "10.15.3",
+    "npm": "6.9.0"
   }
 }
