@@ -28,7 +28,7 @@ export default {
             "name": "Camila Silva",
             "city": "Paulista",
             "state": "Pernambuco",
-            "photo": "./assets/img/team/camila.jpg",
+            "photo": "./assets/img/team/camila.jpeg",
             "role": "Web Developer",
             "company": "Accenture",
             "office": "Atomicc Studio",
