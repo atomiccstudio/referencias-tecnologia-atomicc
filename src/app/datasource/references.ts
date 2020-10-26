@@ -35,6 +35,33 @@ export default {
                 "angular",
                 "ngrx"
             ]
+        },
+        {
+            "title": "Documentação oficial Kafka",
+            "type": "Artigo",
+            "url": "https://kafka.apache.org/intro",
+            "keywords": [
+                "kafka",
+                "documentação"
+            ]
+        },
+        {
+            "title": "Kafka na prática",
+            "type": "Artigo",
+            "url": "https://medium.com/trainingcenter/apache-kafka-codifica%C3%A7%C3%A3o-na-pratica-9c6a4142a08f",
+            "keywords": [
+                "kafka",
+                "prática"
+            ]
+        },
+        {
+            "title": "O que é esse tal de Apache Kafka?",
+            "type": "Artigo",
+            "url": "https://medium.com/@gabrielqueiroz/o-que-%C3%A9-esse-tal-de-apache-kafka-a8f447cac028",
+            "keywords": [
+                "kafka",
+                "Apache"
+            ]
         }
     ]
 }
