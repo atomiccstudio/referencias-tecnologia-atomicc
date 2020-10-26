@@ -65,7 +65,7 @@ export default {
                     "url": "https://github.com/merciaoliveira"
                 }
             ],
-            "urlReadMore": "https://www.linkedin.com/in/camilarrsilva",
+            "urlReadMore": "https://www.linkedin.com/in/merciaoliveira",
             "bio": "Pessoa curiosa que adora fuçar e criar coisas. Atualmente trabalhando com desenvolvimento web. Tem como Hobby estudar todo o ecossistema da criação de jogos e desenvolver jogos.",
 
         }
