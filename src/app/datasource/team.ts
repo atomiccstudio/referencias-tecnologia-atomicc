@@ -45,6 +45,29 @@ export default {
             "urlReadMore": "https://www.linkedin.com/in/camilarrsilva",
             "bio": "Mãe de duas filhas, Analista de Sistemas Pleno na Accenture há mais de 1 ano, estudante bolsista do curso de Análise e Desenvolvimento de Sistemas, entusiasta por tecnologia e que anseia por conhecimento. Encontrou na TI não apenas o sustento da família bem como o prazer de trabalhar com o que ama. Tem compreenção do quanto é importante a inclusão feminina no mercado de Tecnologia e das dificuldades encontradas nesse caminho. Tem como propósito inspirar e ajudar outras mulheres na construção de suas carreiras na tecnologia, e como dever retribuir o apoio, contribuição e conhecimento que recebeu das cominudades voltadas para a capacitação feminina na tecnologia.",
             
+        },
+        {
+            "key": "mercia",
+            "name": "Mércia Oliveira",
+            "city": "Jaboatão dos Guararapes",
+            "state": "Pernambuco",
+            "photo": "./assets/img/team/mercia.jpeg",
+            "role": "Web Developer",
+            "company": "Accenture",
+            "office": "Atomicc Studio",
+            "socialNetworks": [
+                {
+                    "icon": "fa fa-linkedin",
+                    "url": "https://linkedin.com/in/merciaoliveira",
+                },
+                {
+                    "icon": "fa fa-github",
+                    "url": "https://github.com/merciaoliveira"
+                }
+            ],
+            "urlReadMore": "https://www.linkedin.com/in/merciaoliveira",
+            "bio": "Pessoa curiosa que adora fuçar e criar coisas. Atualmente trabalhando com desenvolvimento web. Tem como Hobby estudar todo o ecossistema da criação de jogos e desenvolver jogos.",
+
         }
     ]
 }
