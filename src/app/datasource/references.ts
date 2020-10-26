@@ -62,6 +62,24 @@ export default {
                 "kafka",
                 "Apache"
             ]
+        },
+        {
+            "title": "React Router v4",
+            "type": "Artigo",
+            "url": "https://medium.com/collabcode/roteamento-no-react-com-os-poderes-do-react-router-v4-fbc191b9937d",
+            "keywords": [
+                "React",
+                "Router"
+            ]
+        },
+        {
+            "title": "Padrões em React: Provider Pattern",
+            "type": "Artigo",
+            "url": "https://oieduardorabelo.medium.com/padr%C3%B5es-em-react-provider-pattern-b520c37ed733",
+            "keywords": [
+                "React",
+                "Pattern"
+            ]
         }
     ]
 }
