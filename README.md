@@ -1,4 +1,4 @@
-# referencias-atomicc-hacktoberfest
+# Atomicc Referências de Tecnologia
 
 ## :memo: O que é
 
