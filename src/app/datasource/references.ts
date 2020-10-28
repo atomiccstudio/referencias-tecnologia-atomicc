@@ -81,6 +81,16 @@ export default {
                 "Pattern"
             ]
         },
+
+
+
+
+
+
+
+
+
+
         {
             "title": "Artigos sobre Angular e React",
             "type": "Artigo",
