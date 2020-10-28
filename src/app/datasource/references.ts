@@ -80,6 +80,15 @@ export default {
                 "React",
                 "Pattern"
             ]
-        }
+        },
+        {
+            "title": "Curso de Angular",
+            "type": "Vídeo",
+            "url": "https://www.youtube.com/watch?v=tPOMG0D57S0&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G&index=1",
+            "keywords": [
+                "Angular",
+                "Curso"
+            ]
+        },
     ]
 }
