@@ -80,6 +80,14 @@ export default {
                 "React",
                 "Pattern"
             ]
+        },
+         "title": "Como funciona o JavaScript",
+            "type": "Artigo",
+            "url": "https://blog.sessionstack.com/tagged/tutorial",
+            "keywords": [
+                 "JavaScript"
+                
+            ]
         }
     ]
 }
