@@ -80,6 +80,15 @@ export default {
                 "React",
                 "Pattern"
             ]
+        },
+        {
+            "title": "Artigos sobre Angular e React",
+            "type": "Artigo",
+            "url": "https://indepth.dev/",
+            "keywords": [
+                "Angular",
+                "React"
+            ]
         }
     ]
 }
