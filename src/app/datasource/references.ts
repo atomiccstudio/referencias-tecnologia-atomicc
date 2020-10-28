@@ -82,6 +82,15 @@ export default {
             ]
         },
         {
+            "title": "Artigos sobre Angular e React",
+            "type": "Artigo",
+            "url": "https://indepth.dev/",
+            "keywords": [
+                "Angular",
+                "React"
+            ]
+        },
+        {
             "title": "Curso de Angular",
             "type": "Vídeo",
             "url": "https://www.youtube.com/watch?v=tPOMG0D57S0&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G&index=1",
@@ -89,6 +98,6 @@ export default {
                 "Angular",
                 "Curso"
             ]
-        },
+        }
     ]
 }
