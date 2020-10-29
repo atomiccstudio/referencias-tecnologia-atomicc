@@ -81,6 +81,22 @@ export default {
                 "Pattern"
             ]
         },
+         "title": "Como funciona o JavaScript",
+            "type": "Artigo",
+            "url": "https://blog.sessionstack.com/tagged/tutorial",
+            "keywords": [
+                 "JavaScript"
+       ]
+         },
+        {
+            "title": "Artigos sobre Angular e React",
+            "type": "Artigo",
+            "url": "https://indepth.dev/",
+            "keywords": [
+                "Angular",
+                "React"
+            ]
+        },
         {
             "title": "Curso de Angular",
             "type": "Vídeo",
@@ -110,5 +126,45 @@ export default {
                 "Stackoverflow"
             ]
         },
+        {
+            "title": "O que é API, REST e RESTFULL?",
+            "type": "Vídeo",
+            "url": "https://www.youtube.com/watch?v=ghTrp1x_1As&feature=youtu.be",
+            "keywords": [
+                "api",
+                "rest",
+                "restfull"
+            ]
+        },
+        {
+            "title": "Como usar Git e Github na prática: Guia para iniciantes",
+            "type": "Vídeo",
+            "url": "https://www.youtube.com/watch?v=2alg7MQ6_sI",
+            "keywords": [
+                "git",
+                "github"
+            ]
+        },
+        {
+            "title": "Qual a diferença entre Inteligência Artificial, Machine Learning, Data Science, Deep Learning, etc?",
+            "type": "Vídeo",
+            "url": "https://www.youtube.com/watch?v=ccZ2pyr3YDw&t=1s",
+            "keywords": [
+                "Inteligência Artificial",
+                "IA",
+                "machine learning",
+                "data science",
+                "deep learning",
+            ]
+        },
+        {
+            "title": "Gerenciando estado com NGRX",
+            "type": "Vídeo",
+            "url": "https://www.youtube.com/watch?v=BobNwRgz6Uw&t=685s",
+            "keywords": [
+                "ngrx",
+                "gerencia de estado"
+            ]
+        }
     ]
 }
