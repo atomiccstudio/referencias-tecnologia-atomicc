@@ -100,5 +100,15 @@ export default {
                 "Curso"
             ]
         },
+        {
+            "title": "Empacado no seu código? Conheça o Stack Overflow",
+            "type": "Site",
+            "url": "https://pt.stackoverflow.com/",
+            "keywords": [
+                "Stack",
+                "Programação",
+                "Stackoverflow"
+            ]
+        },
     ]
 }
