@@ -348,8 +348,7 @@
           <div class="d-flex px-3">
             <div>
               <div
-                class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info"
-              >
+                class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
                 <i class="ni ni-active-40 text-info"></i>
               </div>
             </div>
@@ -365,7 +364,10 @@
       <div class="row pb-5 mb-5">
         <div class="col-lg-12 card shadow shadow-lg--hover mt-5 pb-3 pt-2">
           <div class="row pt-2">
-            <div class="col-lg-12">
+            <div class="menuReference">
+              <div>
+                <button class="btn btn-lg btn-outline-primary" type="button">Contribuir</button>
+              </div>
               <mat-form-field class="full-width">
                 <mat-label>Digite ao menos 3 caracteres</mat-label>
                 <input matInput placeholder="Ex. Cloud" [(ngModel)]="searchParams" #ctrl="ngModel" (ngModelChange)="filterLinks()">
