@@ -137,6 +137,34 @@ export default {
             ]
         },
         {
+            "title": "Curso de JavaScript e ECMAScript para Iniciantes",
+            "type": "Video",
+            "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1",
+            "keywords": [
+                "JavaScript",
+                "ECMAScript",
+                "Curso"
+            ]
+        },
+        {
+            "title": "Programação para todos: The Huxley!",
+            "type": "Site",
+            "url": "https://thehuxley.com",
+            "keywords": [
+                "Huxley",
+                "Programação"
+            ]
+        },
+        {
+            "title": "Estude tecnologia com a Alura!",
+            "type": "Site",
+            "url": "https://www.alura.com.br",
+            "keywords": [
+                "Alura",
+                "Cursos"
+            ]
+        },
+        {
             "title": "O que é API, REST e RESTFULL?",
             "type": "Vídeo",
             "url": "https://www.youtube.com/watch?v=ghTrp1x_1As&feature=youtu.be",
