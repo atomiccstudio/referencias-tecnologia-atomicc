@@ -129,5 +129,14 @@ export default {
                 "Curso"
             ]
         },
+        {
+            "title": "Programação para todos: The Huxley!",
+            "type": "Site",
+            "url": "https://thehuxley.com",
+            "keywords": [
+                "Huxley",
+                "Programação"
+            ]
+        },
     ]
 }
