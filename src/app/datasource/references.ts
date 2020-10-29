@@ -138,5 +138,14 @@ export default {
                 "Programação"
             ]
         },
+        {
+            "title": "Estude tecnologia com a Alura!",
+            "type": "Site",
+            "url": "https://www.alura.com.br",
+            "keywords": [
+                "Alura",
+                "Cursos"
+            ]
+        },
     ]
 }
