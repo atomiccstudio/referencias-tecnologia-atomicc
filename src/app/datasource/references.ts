@@ -81,89 +81,97 @@ export default {
                 "Pattern"
             ]
         },
-         "title": "Como funciona o JavaScript",
-            "type": "Artigo",
-            "url": "https://blog.sessionstack.com/tagged/tutorial",
-            "keywords": [
-                 "JavaScript"
-       ]
+        "title": "Como funciona o JavaScript",
+        "type": "Artigo",
+        "url": "https://blog.sessionstack.com/tagged/tutorial",
+        "keywords": [
+            "JavaScript"
+        ]
          },
-        {
-            "title": "Artigos sobre Angular e React",
-            "type": "Artigo",
+{
+    "title": "Artigos sobre Angular e React",
+        "type": "Artigo",
             "url": "https://indepth.dev/",
-            "keywords": [
-                "Angular",
-                "React"
-            ]
-        },
-        {
-            "title": "Curso de Angular",
-            "type": "Vídeo",
+                "keywords": [
+                    "Angular",
+                    "React"
+                ]
+},
+{
+    "title": "Curso de Angular",
+        "type": "Vídeo",
             "url": "https://www.youtube.com/watch?v=tPOMG0D57S0&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G&index=1",
-            "keywords": [
-                "Angular",
-                "Curso"
-            ]
-        },
-        {
-            "title": "Curso de Git e GitHub",
-            "type": "Vídeo",
+                "keywords": [
+                    "Angular",
+                    "Curso"
+                ]
+},
+{
+    "title": "Curso de Git e GitHub",
+        "type": "Vídeo",
             "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA",
-            "keywords": [
-                "Git",
-                "GitHub",
-                "Curso"
-            ]
-        },
-        {
-            "title": "Empacado no seu código? Conheça o Stack Overflow",
-            "type": "Site",
+                "keywords": [
+                    "Git",
+                    "GitHub",
+                    "Curso"
+                ]
+},
+{
+    "title": "Empacado no seu código? Conheça o Stack Overflow",
+        "type": "Site",
             "url": "https://pt.stackoverflow.com/",
-            "keywords": [
-                "Stack",
-                "Programação",
-                "Stackoverflow"
-            ]
-        },
-        {
-            "title": "O que é API, REST e RESTFULL?",
-            "type": "Vídeo",
+                "keywords": [
+                    "Stack",
+                    "Programação",
+                    "Stackoverflow"
+                ]
+},
+{
+    "title": "O que é API, REST e RESTFULL?",
+        "type": "Vídeo",
             "url": "https://www.youtube.com/watch?v=ghTrp1x_1As&feature=youtu.be",
-            "keywords": [
-                "api",
-                "rest",
-                "restfull"
-            ]
-        },
-        {
-            "title": "Como usar Git e Github na prática: Guia para iniciantes",
-            "type": "Vídeo",
+                "keywords": [
+                    "api",
+                    "rest",
+                    "restfull"
+                ]
+},
+{
+    "title": "Como usar Git e Github na prática: Guia para iniciantes",
+        "type": "Vídeo",
             "url": "https://www.youtube.com/watch?v=2alg7MQ6_sI",
-            "keywords": [
-                "git",
-                "github"
-            ]
-        },
-        {
-            "title": "Qual a diferença entre Inteligência Artificial, Machine Learning, Data Science, Deep Learning, etc?",
-            "type": "Vídeo",
+                "keywords": [
+                    "git",
+                    "github"
+                ]
+},
+{
+    "title": "Qual a diferença entre Inteligência Artificial, Machine Learning, Data Science, Deep Learning, etc?",
+        "type": "Vídeo",
             "url": "https://www.youtube.com/watch?v=ccZ2pyr3YDw&t=1s",
-            "keywords": [
-                "Inteligência Artificial",
-                "IA",
-                "machine learning",
-                "data science",
-                "deep learning",
-            ]
-        },
-        {
-            "title": "Gerenciando estado com NGRX",
-            "type": "Vídeo",
+                "keywords": [
+                    "Inteligência Artificial",
+                    "IA",
+                    "machine learning",
+                    "data science",
+                    "deep learning",
+                ]
+},
+{
+    "title": "Gerenciando estado com NGRX",
+        "type": "Vídeo",
             "url": "https://www.youtube.com/watch?v=BobNwRgz6Uw&t=685s",
+                "keywords": [
+                    "ngrx",
+                    "gerencia de estado"
+                ]
+},
+"title": "Aprendendo programação funcional com JavaScript",
+    "type": "Vídeo",
+        "url": "https://www.youtube.com/watch?v=e-5obm1G_FY&list=PLFIlIa2DY4kzQlsLEwYX3ZrwtahgSLFur&index=4&t=6s",
             "keywords": [
-                "ngrx",
-                "gerencia de estado"
+                "JavaScript",
+                "Funcional"
             ]
         }
     ]
