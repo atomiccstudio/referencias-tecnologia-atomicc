@@ -14,6 +14,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 
 import { StyleGuideModule } from './style-guide/style-guide.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormContribuirDialogComponent } from './form-contribuir-dialog/form-contribuir-dialog.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ProfileComponent,
     NavbarComponent,
     FooterComponent,
-    HomepageComponent
+    HomepageComponent,
+    FormContribuirDialogComponent
   ],
   imports: [
     BrowserModule,
