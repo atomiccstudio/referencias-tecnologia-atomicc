@@ -81,6 +81,7 @@ export default {
                 "Pattern"
             ]
         },
+        {
          "title": "Como funciona o JavaScript",
             "type": "Artigo",
             "url": "https://blog.sessionstack.com/tagged/tutorial",
