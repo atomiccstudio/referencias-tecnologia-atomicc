@@ -119,5 +119,15 @@ export default {
                 "Frameworks"
             ]
         },
+        {
+            "title": "Curso de JavaScript e ECMAScript para Iniciantes",
+            "type": "Video",
+            "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1",
+            "keywords": [
+                "JavaScript",
+                "ECMAScript",
+                "Curso"
+            ]
+        },
     ]
 }
