@@ -128,6 +128,15 @@ export default {
             ]
         },
         {
+            "title": "Framework Django",
+            "type": "Site",
+            "url": "https://www.djangoproject.com/",
+            "keywords": [
+                "Django",
+                "Frameworks"
+            ]
+        },
+        {
             "title": "O que é API, REST e RESTFULL?",
             "type": "Vídeo",
             "url": "https://www.youtube.com/watch?v=ghTrp1x_1As&feature=youtu.be",
