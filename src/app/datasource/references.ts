@@ -110,5 +110,14 @@ export default {
                 "Stackoverflow"
             ]
         },
+        {
+            "title": "Framework Django",
+            "type": "Site",
+            "url": "https://www.djangoproject.com/",
+            "keywords": [
+                "Django",
+                "Frameworks"
+            ]
+        },
     ]
 }
