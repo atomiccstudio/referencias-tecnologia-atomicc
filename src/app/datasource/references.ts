@@ -87,6 +87,13 @@ export default {
         "keywords": [
             "JavaScript"
         ]
+        {
+         "title": "Como funciona o JavaScript",
+            "type": "Artigo",
+            "url": "https://blog.sessionstack.com/tagged/tutorial",
+            "keywords": [
+                 "JavaScript"
+       ]
          },
 {
     "title": "Artigos sobre Angular e React",
@@ -129,6 +136,24 @@ export default {
 {
     "title": "O que é API, REST e RESTFULL?",
         "type": "Vídeo",
+            "keywords": [
+                "Stack",
+                "Programação",
+                "Stackoverflow"
+            ]
+        },
+        {
+            "title": "Framework Django",
+            "type": "Site",
+            "url": "https://www.djangoproject.com/",
+            "keywords": [
+                "Django",
+                "Frameworks"
+            ]
+        },
+        {
+            "title": "O que é API, REST e RESTFULL?",
+            "type": "Vídeo",
             "url": "https://www.youtube.com/watch?v=ghTrp1x_1As&feature=youtu.be",
                 "keywords": [
                     "api",
@@ -160,6 +185,17 @@ export default {
 {
     "title": "Gerenciando estado com NGRX",
         "type": "Vídeo",
+            "keywords": [
+                "inteligencia artificial",
+                "IA",
+                "machine learning",
+                "data science",
+                "deep learning",
+            ]
+        },
+        {
+            "title": "Gerenciando estado com NGRX",
+            "type": "Vídeo",
             "url": "https://www.youtube.com/watch?v=BobNwRgz6Uw&t=685s",
                 "keywords": [
                     "ngrx",
