@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import getArrays from '../datasource/references';
+import { MatDialog } from '@angular/material/dialog';
+import { FormContribuirDialogComponent } from  '../form-contribuir-dialog/form-contribuir-dialog.component'
 
 export interface Rerencia {
   title: string;
@@ -21,7 +23,9 @@ export class HomepageComponent implements OnInit {
   dataSource = ELEMENT_DATA;
   searchParams: string = '';
 
-  constructor() { }
+  constructor(
+    public dialog: MatDialog
+  ) { }
 
   ngOnInit() {
   }
@@ -37,6 +41,16 @@ export class HomepageComponent implements OnInit {
       this.dataSource = getArrays['links'];
     }
     
+  }
+
+  openDialog(): void {
+    const dialogRef = this.dialog.open(FormContribuirDialogComponent, {
+      width: '250px',
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log('The dialog was closed');
+    });
   }
 
 }
