@@ -160,7 +160,7 @@ export default {
             "type": "Vídeo",
             "url": "https://www.youtube.com/watch?v=ccZ2pyr3YDw&t=1s",
             "keywords": [
-                "Inteligência Artificial",
+                "inteligencia artificial",
                 "IA",
                 "machine learning",
                 "data science",
