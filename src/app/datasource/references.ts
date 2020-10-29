@@ -107,6 +107,26 @@ export default {
             ]
         },
         {
+            "title": "Curso de Git e GitHub",
+            "type": "Vídeo",
+            "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA",
+            "keywords": [
+                "Git",
+                "GitHub",
+                "Curso"
+            ]
+        },
+        {
+            "title": "Empacado no seu código? Conheça o Stack Overflow",
+            "type": "Site",
+            "url": "https://pt.stackoverflow.com/",
+            "keywords": [
+                "Stack",
+                "Programação",
+                "Stackoverflow"
+            ]
+        },
+        {
             "title": "O que é API, REST e RESTFULL?",
             "type": "Vídeo",
             "url": "https://www.youtube.com/watch?v=ghTrp1x_1As&feature=youtu.be",
