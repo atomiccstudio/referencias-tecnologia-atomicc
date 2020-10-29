@@ -90,5 +90,15 @@ export default {
                 "Curso"
             ]
         },
+        {
+            "title": "Curso de Git e GitHub",
+            "type": "Vídeo",
+            "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA",
+            "keywords": [
+                "Git",
+                "GitHub",
+                "Curso"
+            ]
+        },
     ]
 }
