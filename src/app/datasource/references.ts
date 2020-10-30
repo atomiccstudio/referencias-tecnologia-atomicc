@@ -167,5 +167,15 @@ export default {
                 "MySQL"
             ]
         },
+        {
+            "title": "Push by Ilhasoft - plataforma de Chatbot",
+            "type": "Site",
+            "url": "https://push.al/#comeceagora",
+            "keywords": [
+                "Push",
+                "Ilhasoft",
+                "Chatbot"
+            ]
+        },
     ]
 }
