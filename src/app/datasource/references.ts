@@ -157,5 +157,15 @@ export default {
                 "CSS"
             ]
         },
+        {
+            "title": "Aprenda Banco de Dados MySQL!",
+            "type": "Vídeo",
+            "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r",
+            "keywords": [
+                "Curso",
+                "Banco de Dados",
+                "MySQL"
+            ]
+        },
     ]
 }
