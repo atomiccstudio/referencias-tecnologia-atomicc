@@ -98,6 +98,15 @@ export default {
                 "Angular",
                 "Curso"
             ]
+        },
+        {
+            "title": "Guia CSS: Flexbox",
+            "type": "Artigo",
+            "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+            "keywords": [
+                "CSS",
+                "Flexbox"
+            ]
         }
     ]
 }
