@@ -147,5 +147,15 @@ export default {
                 "Cursos"
             ]
         },
+        {
+            "title": "Curso de HTML5 e CSS3",
+            "type": "Vídeo",
+            "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n",
+            "keywords": [
+                "Curso",
+                "HTML",
+                "CSS"
+            ]
+        },
     ]
 }
