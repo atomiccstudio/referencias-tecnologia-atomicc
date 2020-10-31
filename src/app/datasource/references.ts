@@ -178,5 +178,11 @@ export default {
             url: 'https://graphql.org/learn/',
             keywords: ['GraphQL', 'Introduction', 'iniciante'],
         },
+        {
+            title: 'Protótipo de alta fidelidade',
+            type: 'Vídeo',
+            url: 'https://www.youtube.com/watch?v=JRqC6_N3lvg',
+            keywords: ['prototipagem', 'design', 'UX'],
+        },
     ],
 }
