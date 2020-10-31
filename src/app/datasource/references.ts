@@ -104,79 +104,72 @@ export default {
             keywords: ['Stack', 'Programação', 'Stackoverflow'],
         },
         {
-            title: 'Framework Django',
-            type: 'Site',
-            url: 'https://www.djangoproject.com/',
-            keywords: ['Django', 'Frameworks'],
-        },
-        {
-            title: 'Curso de JavaScript e ECMAScript para Iniciantes',
-            type: 'Video',
-            url:
-                'https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1',
-            keywords: ['JavaScript', 'ECMAScript', 'Curso'],
-        },
-        {
-            title: 'Programação para todos: The Huxley!',
-            type: 'Site',
-            url: 'https://thehuxley.com',
-            keywords: ['Huxley', 'Programação'],
-        },
-        {
-            title: 'Estude tecnologia com a Alura!',
-            type: 'Site',
-            url: 'https://www.alura.com.br',
-            keywords: ['Alura', 'Cursos'],
-        },
-        {
-            title: 'O que é API, REST e RESTFULL?',
-            type: 'Vídeo',
-            url: 'https://www.youtube.com/watch?v=ghTrp1x_1As&feature=youtu.be',
-            keywords: ['api', 'rest', 'restfull'],
-        },
-        {
-            title: 'Como usar Git e Github na prática: Guia para iniciantes',
-            type: 'Vídeo',
-            url: 'https://www.youtube.com/watch?v=2alg7MQ6_sI',
-            keywords: ['git', 'github'],
-        },
-        {
-            title:
-                'Qual a diferença entre Inteligência Artificial, Machine Learning, Data Science, Deep Learning, etc?',
-            type: 'Vídeo',
-            url: 'https://www.youtube.com/watch?v=ccZ2pyr3YDw&t=1s',
-            keywords: [
-                'Inteligência Artificial',
-                'IA',
-                'machine learning',
-                'data science',
-                'deep learning',
-            ],
-        },
-        {
-            title: 'Gerenciando estado com NGRX',
-            type: 'Vídeo',
-            url: 'https://www.youtube.com/watch?v=BobNwRgz6Uw&t=685s',
-            keywords: ['ngrx', 'gerencia de estado'],
-        },
-        {
-            title: 'Aprendendo programação funcional com JavaScript',
-            type: 'Vídeo',
-            url:
-                'https://www.youtube.com/watch?v=e-5obm1G_FY&list=PLFIlIa2DY4kzQlsLEwYX3ZrwtahgSLFur&index=4&t=6s',
-            keywords: ['JavaScript', 'Funcional'],
-        },
-        {
-            title: 'O que é Next.js?',
-            type: 'Artigo',
-            url: 'https://segredo.dev/o-que-e-next-js/',
-            keywords: ['next', 'frontend', 'backend'],
-        },
-        {
-            title: 'Introduction to GraphQL',
-            type: 'Artigo',
-            url: 'https://graphql.org/learn/',
-            keywords: ['GraphQL', 'Introduction', 'iniciante'],
-        },
-    ],
+            "title": "Gerenciando estado com NGRX",
+            "type": "Vídeo",
+            "url": "https://www.youtube.com/watch?v=BobNwRgz6Uw&t=685s",
+                "keywords": [
+                    "ngrx",
+                    "gerencia de estado"
+                ]
+},
+{
+"title": "Aprendendo programação funcional com JavaScript",
+    "type": "Vídeo",
+        "url": "https://www.youtube.com/watch?v=e-5obm1G_FY&list=PLFIlIa2DY4kzQlsLEwYX3ZrwtahgSLFur&index=4&t=6s",
+            "keywords": [
+                "JavaScript",
+                "Funcional"
+            ]
+},
+{
+    "title": "O que é Next.js?",
+    "type": "Artigo",
+    "url": "https://segredo.dev/o-que-e-next-js/",
+    "keywords": [
+        "next",
+        "frontend",
+        "backend"
+    ]
+},
+{
+    "title": "Introduction to GraphQL",
+    "type": "Artigo",
+    "url": "https://graphql.org/learn/",
+    "keywords": [
+        "GraphQL",
+        "Introduction",
+        "iniciante"
+    ]
+},
+{
+        "title": "O que é IoT?",
+        "type": "Artigo",
+        "url": "https://inteligencia.rockcontent.com/internet-das-coisas/",
+        "keywords": [
+            "IoT",
+            "Internet of Things",
+            "iniciante"
+        ]
+},
+{
+    "title": "O que é Big Data",
+    "type": "Artigo",
+    "url": "https://www.cetax.com.br/blog/big-data/",
+    "keywords": [
+        "Big Data",
+        "Iniciante"
+    ]
+},
+{
+    "title": "O que é Realidade Aumentada?",
+    "type": "Artigo",
+    "url": "https://olhardigital.com.br/noticia/realidade-aumentada-voce-sabe-o-que-e/87467",
+    "keywords": [
+        "Realidade Aumentada",
+		"RA",
+        "Iniciante"
+    ]
+}
+
+    ]
 }
