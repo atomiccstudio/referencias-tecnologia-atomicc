@@ -172,5 +172,12 @@ export default {
                 'https://www.youtube.com/watch?v=e-5obm1G_FY&list=PLFIlIa2DY4kzQlsLEwYX3ZrwtahgSLFur&index=4&t=6s',
             keywords: ['JavaScript', 'Funcional'],
         },
+        {
+            title: 'Entendendo a arquitetura BFF',
+            type: 'Artigo',
+            url:
+                'https://medium.com/concretebr/arquitetura-bff-back-end-for-front-end-13e2cbfbcda2',
+            keywords: ['BFF', 'Front-end', 'Back-end'],
+        },
     ],
 }
