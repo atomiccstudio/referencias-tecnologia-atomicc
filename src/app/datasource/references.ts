@@ -251,15 +251,6 @@ export default {
         "backend"
     ]
 },
-{
-    "title": "Introduction to GraphQL",
-    "type": "Artigo",
-    "url": "https://graphql.org/learn/",
-    "keywords": [
-        "GraphQL",
-        "Introduction",
-        "iniciante"
-    ]
-}
+
     ]
 }
