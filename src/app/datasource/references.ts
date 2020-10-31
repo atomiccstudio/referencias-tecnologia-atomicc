@@ -100,7 +100,7 @@ export default {
         {
             title: 'O que é API, REST e RESTFULL?',
             type: 'Vídeo',
-            url: 'https://www.youtube.com/watch?v=ghTrp1x_1As',
+            url: 'https://www.youtube.com/watch?v=ghTrp1x_1As&t=3s',
             keywords: ['Stack', 'Programação', 'Stackoverflow'],
         },
         {
@@ -160,17 +160,23 @@ export default {
             keywords: ['ngrx', 'gerencia de estado'],
         },
         {
-            title: 'Ui Design',
-            type: 'Blog',
-            url: 'https://uilab.com.br/',
-            keywords: ['UI design', 'user interface'],
-        },
-        {
             title: 'Aprendendo programação funcional com JavaScript',
             type: 'Vídeo',
             url:
                 'https://www.youtube.com/watch?v=e-5obm1G_FY&list=PLFIlIa2DY4kzQlsLEwYX3ZrwtahgSLFur&index=4&t=6s',
             keywords: ['JavaScript', 'Funcional'],
+        },
+        {
+            title: 'O que é Next.js?',
+            type: 'Artigo',
+            url: 'https://segredo.dev/o-que-e-next-js/',
+            keywords: ['next', 'frontend', 'backend'],
+        },
+        {
+            title: 'Introduction to GraphQL',
+            type: 'Artigo',
+            url: 'https://graphql.org/learn/',
+            keywords: ['GraphQL', 'Introduction', 'iniciante'],
         },
         {
             title: 'Entendendo a arquitetura BFF',
