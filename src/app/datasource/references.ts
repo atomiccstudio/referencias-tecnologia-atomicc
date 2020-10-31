@@ -249,6 +249,15 @@ export default {
                 "CSS",
                 "Flexbox"
             ]
+        },
+        {
+            "title": "Dicas de como melhorar o uso no VSCode",
+            "type": "Vídeo",
+            "url": "https://www.freecodecamp.org/news/learn-visual-studio-code-to-increase-productivity/",
+            "keywords": [
+                "vscode",
+                "editor"
+            ]
         }
     ]    
 }
