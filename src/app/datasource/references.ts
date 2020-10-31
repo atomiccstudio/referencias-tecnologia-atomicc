@@ -81,12 +81,14 @@ export default {
                 "Pattern"
             ]
         },
+        {
         "title": "Como funciona o JavaScript",
         "type": "Artigo",
         "url": "https://blog.sessionstack.com/tagged/tutorial",
         "keywords": [
             "JavaScript"
         ]
+    },
         {
          "title": "Como funciona o JavaScript",
             "type": "Artigo",
@@ -230,6 +232,7 @@ export default {
                     "gerencia de estado"
                 ]
 },
+{
 "title": "Aprendendo programação funcional com JavaScript",
     "type": "Vídeo",
         "url": "https://www.youtube.com/watch?v=e-5obm1G_FY&list=PLFIlIa2DY4kzQlsLEwYX3ZrwtahgSLFur&index=4&t=6s",
@@ -237,6 +240,16 @@ export default {
                 "JavaScript",
                 "Funcional"
             ]
-        }
+},
+{
+    "title": "O que é Next.js?",
+    "type": "Artigo",
+    "url": "https://segredo.dev/o-que-e-next-js/",
+    "keywords": [
+        "next",
+        "frontend",
+        "backend"
+    ]
+}
     ]
 }
