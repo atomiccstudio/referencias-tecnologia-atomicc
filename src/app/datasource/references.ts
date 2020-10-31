@@ -178,5 +178,11 @@ export default {
             url: 'https://graphql.org/learn/',
             keywords: ['GraphQL', 'Introduction', 'iniciante'],
         },
+        {
+            title: 'Como criar um bot no discord ',
+            type: 'Vídeo',
+            url: 'https://www.youtube.com/watch?v=L2QgVT-I67w',
+            keywords: ['NodeJS', 'Discord'],
+        },
     ],
 }
