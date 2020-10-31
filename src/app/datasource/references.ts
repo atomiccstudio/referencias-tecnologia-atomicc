@@ -260,6 +260,17 @@ export default {
         "Introduction",
         "iniciante"
     ]
+},
+{
+        "title": "O que é IoT?",
+        "type": "Artigo",
+        "url": "https://inteligencia.rockcontent.com/internet-das-coisas/",
+        "keywords": [
+            "IoT",
+            "Internet of Things",
+            "iniciante"
+        ]
 }
+
     ]
 }
