@@ -16,8 +16,6 @@ import { StyleGuideModule } from './style-guide/style-guide.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormContribuirDialogComponent } from './form-contribuir-dialog/form-contribuir-dialog.component';
 
-import { HttpClientModule } from '@angular/common/http';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,8 +33,7 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     StyleGuideModule,
     BrowserAnimationsModule,
-    MaterialModule,
-    HttpClientModule
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
