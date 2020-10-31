@@ -270,6 +270,15 @@ export default {
             "Internet of Things",
             "iniciante"
         ]
+},
+{
+    "title": "O que é Big Data",
+    "type": "Artigo",
+    "url": "https://www.cetax.com.br/blog/big-data/",
+    "keywords": [
+        "Big Data",
+        "Iniciante"
+    ]
 }
 
     ]
