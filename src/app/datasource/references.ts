@@ -66,10 +66,10 @@ export default {
             keywords: ['JavaScript'],
         },
         {
-            title: 'Como funciona o JavaScript',
-            type: 'Artigo',
-            url: 'https://blog.sessionstack.com/tagged/tutorial',
-            keywords: ['JavaScript'],
+            title: 'Documentação de Swift',
+            type: 'Site',
+            url: 'https://swift.org/documentation/',
+            keywords: ['Swift', 'Mobile'],
         },
         {
             title: 'Artigos sobre Angular e React',
