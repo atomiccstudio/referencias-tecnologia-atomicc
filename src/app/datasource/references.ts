@@ -173,6 +173,14 @@ export default {
             "keywords": [
                 "ajax"
             ]
+        },
+        {
+            "title": "JSON // Dicionário do Programador",
+            "type": "Vídeo",
+            "url": "https://www.youtube.com/watch?v=P81dE-tkaaA",
+            "keywords": [
+                "json"
+            ]
         } 
     ]
 }
