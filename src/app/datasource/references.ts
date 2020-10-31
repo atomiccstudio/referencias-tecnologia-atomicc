@@ -165,6 +165,14 @@ export default {
             "keywords": [
                 "firebase"
             ]
+        },
+        {
+            "title": "O que é Ajax? Como funciona?",
+            "type": "Vídeo",
+            "url": "https://www.youtube.com/watch?v=DAVOAzTX21U",
+            "keywords": [
+                "ajax"
+            ]
         } 
     ]
 }
