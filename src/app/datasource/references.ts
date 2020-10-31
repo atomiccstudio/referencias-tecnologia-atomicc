@@ -138,6 +138,33 @@ export default {
                 "ngrx",
                 "gerencia de estado"
             ]
-        }
+        },
+        {
+            "title": "Clean Code // Dicionário do Programador",
+            "type": "Vídeo",
+            "url": "https://www.youtube.com/watch?v=ln6t3uyTveQ",
+            "keywords": [
+                "clean",
+                "code",
+                "clean code"
+            ]
+        },
+        {
+            "title": "TypeScript - O que é e quais os seus benefícios?",
+            "type": "Vídeo",
+            "url": "https://www.youtube.com/watch?v=kg2-SMolAV0&list=RDCMUCSfwM5u0Kce6Cce8_S72olg&index=24",
+            "keywords": [
+                "TS",
+                "typescript"
+            ]
+        },
+        {
+            "title": "Firebase - O que é e para que serve?",
+            "type": "Vídeo",
+            "url": "https://www.youtube.com/watch?v=hx2k0XZ_2Cw",
+            "keywords": [
+                "firebase"
+            ]
+        } 
     ]
 }
