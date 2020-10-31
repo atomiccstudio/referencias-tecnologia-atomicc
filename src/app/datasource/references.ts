@@ -178,5 +178,15 @@ export default {
             url: 'https://graphql.org/learn/',
             keywords: ['GraphQL', 'Introduction', 'iniciante'],
         },
+        {
+            title: 'Usando redes neurais em Super Mario World',
+            type: 'Vídeo',
+            url: 'https://www.youtube.com/watch?v=qv6UVOQ0F44',
+            keywords: [
+                'machine learning',
+                'redes neurais',
+                'inteligencia artificial',
+            ],
+        },
     ],
 }
