@@ -72,6 +72,12 @@ export default {
             keywords: ['JavaScript'],
         },
         {
+            title: 'Documentação de react Native',
+            type: 'Site',
+            url: 'https://reactnative.dev/docs/getting-started',
+            keywords: ['React native', 'Mobile'],
+        },
+        {
             title: 'Artigos sobre Angular e React',
             type: 'Artigo',
             url: 'https://indepth.dev/',
