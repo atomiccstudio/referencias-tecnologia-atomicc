@@ -178,5 +178,11 @@ export default {
             url: 'https://graphql.org/learn/',
             keywords: ['GraphQL', 'Introduction', 'iniciante'],
         },
+        {
+            title: 'Merge Sort - Programação Dinâmica',
+            type: 'Vídeo',
+            url: 'https://www.youtube.com/watch?v=5prE6Mz8Vh0',
+            keywords: ['Ordenação', 'Python', 'algoritmo'],
+        },
     ],
 }
