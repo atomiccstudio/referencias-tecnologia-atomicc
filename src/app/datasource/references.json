@@ -156,5 +156,13 @@
             "TS",
             "typescript"
         ]
+    },
+    {
+        "title": "Firebase - O que é e para que serve?",
+        "type": "Vídeo",
+        "url": "https://www.youtube.com/watch?v=hx2k0XZ_2Cw",
+        "keywords": [
+            "firebase"
+        ]
     }
 ]
