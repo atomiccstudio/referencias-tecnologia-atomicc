@@ -100,6 +100,7 @@ export default {
         {
             title: 'O que é API, REST e RESTFULL?',
             type: 'Vídeo',
+            url: 'https://www.youtube.com/watch?v=ghTrp1x_1As',
             keywords: ['Stack', 'Programação', 'Stackoverflow'],
         },
         {
@@ -146,17 +147,6 @@ export default {
             url: 'https://www.youtube.com/watch?v=ccZ2pyr3YDw&t=1s',
             keywords: [
                 'Inteligência Artificial',
-                'IA',
-                'machine learning',
-                'data science',
-                'deep learning',
-            ],
-        },
-        {
-            title: 'Gerenciando estado com NGRX',
-            type: 'Vídeo',
-            keywords: [
-                'inteligencia artificial',
                 'IA',
                 'machine learning',
                 'data science',
