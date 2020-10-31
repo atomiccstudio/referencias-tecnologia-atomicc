@@ -279,6 +279,16 @@ export default {
         "Big Data",
         "Iniciante"
     ]
+},
+{
+    "title": "O que é Realidade Aumentada?",
+    "type": "Artigo",
+    "url": "https://olhardigital.com.br/noticia/realidade-aumentada-voce-sabe-o-que-e/87467",
+    "keywords": [
+        "Realidade Aumentada",
+		"RA",
+        "Iniciante"
+    ]
 }
 
     ]
