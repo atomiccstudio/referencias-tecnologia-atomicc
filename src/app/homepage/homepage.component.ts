@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import getArrays from '../datasource/references';
 import { MatDialog } from '@angular/material/dialog';
-import { FormContribuirDialogComponent } from  '../form-contribuir-dialog/form-contribuir-dialog.component'
+import { FormContribuirDialogComponent } from  '../form-contribuir-dialog/form-contribuir-dialog.component';
 
 export interface Rerencia {
   title: string;
@@ -45,7 +45,7 @@ export class HomepageComponent implements OnInit {
 
   openDialog(): void {
     const dialogRef = this.dialog.open(FormContribuirDialogComponent, {
-      width: '250px',
+      width: '500px',
     });
 
     dialogRef.afterClosed().subscribe(result => {

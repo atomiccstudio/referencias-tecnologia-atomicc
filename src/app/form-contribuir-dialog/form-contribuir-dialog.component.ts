@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MatDialogRef } from '@angular/material/dialog' 
+import { MatDialogRef } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-form-contribuir-dialog',
@@ -8,14 +8,14 @@ import { MatDialogRef } from '@angular/material/dialog'
 })
 export class FormContribuirDialogComponent implements OnInit {
 
-  constructor(
-    public dialogRef: MatDialogRef<FormContribuirDialogComponent>,
+  constructor( 
+    public dialogRef: MatDialogRef<FormContribuirDialogComponent>, 
   ) { }
 
   ngOnInit(): void {
   }
 
-  onNoClick(): void {
+  clickOnSave(): void {
     this.dialogRef.close();
   }
 
