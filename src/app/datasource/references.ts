@@ -265,6 +265,15 @@ export default {
                 "UI",
                 "Leitura"
             ]
+        },
+        {
+            "title": "UI: Dicas de uso de tipografia",
+            "type": "Artigo",
+            "url": "https://medium.com/ui-lab-school/voc%C3%AA-sabe-usar-tipografia-em-ui-design-9ce4ccdbab43",
+            "keywords": [
+                "UI",
+                "Leitura"
+            ]
         }
     ]
 }
