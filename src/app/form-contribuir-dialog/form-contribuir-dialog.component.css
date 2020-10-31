@@ -1,0 +1,12 @@
+#title {
+    text-align: center;
+}
+
+.example-full-width {
+    width: 100%;
+}
+
+.button_container {
+    margin: 0px;
+    justify-content: center;
+}
