@@ -229,13 +229,23 @@ export default {
                     "ngrx",
                     "gerencia de estado"
                 ]
-},
-"title": "Aprendendo programação funcional com JavaScript",
-    "type": "Vídeo",
-        "url": "https://www.youtube.com/watch?v=e-5obm1G_FY&list=PLFIlIa2DY4kzQlsLEwYX3ZrwtahgSLFur&index=4&t=6s",
+        },
+        {
+            "title": "Aprendendo programação funcional com JavaScript",
+            "type": "Vídeo",
+            "url": "https://www.youtube.com/watch?v=e-5obm1G_FY&list=PLFIlIa2DY4kzQlsLEwYX3ZrwtahgSLFur&index=4&t=6s",
             "keywords": [
                 "JavaScript",
                 "Funcional"
+            ]
+        },
+        {
+            "title": "Coletânia de artigos em UX paara todos os níveis",
+            "type": "Artigos",
+            "url": "https://brasil.uxdesign.cc/",
+            "keywords": [
+                "UX",
+                "Leitura"
             ]
         }
     ]
