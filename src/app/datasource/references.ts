@@ -178,5 +178,12 @@ export default {
             url: 'https://graphql.org/learn/',
             keywords: ['GraphQL', 'Introduction', 'iniciante'],
         },
+        {
+            title: 'Entendendo a arquitetura BFF',
+            type: 'Artigo',
+            url:
+                'https://medium.com/concretebr/arquitetura-bff-back-end-for-front-end-13e2cbfbcda2',
+            keywords: ['BFF', 'Front-end', 'Back-end'],
+        },
     ],
 }
