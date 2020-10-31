@@ -235,7 +235,8 @@ export default {
             "type": "Blog",
              "url": "https://uilab.com.br/",
             "keywords": [
-                "UI design",
+               "UI design",
+               "user interface"
             ]
         },
         {
