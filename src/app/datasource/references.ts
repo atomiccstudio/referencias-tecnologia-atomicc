@@ -229,10 +229,19 @@ export default {
                     "ngrx",
                     "gerencia de estado"
                 ]
-},
-"title": "Aprendendo programação funcional com JavaScript",
-    "type": "Vídeo",
-        "url": "https://www.youtube.com/watch?v=e-5obm1G_FY&list=PLFIlIa2DY4kzQlsLEwYX3ZrwtahgSLFur&index=4&t=6s",
+        },
+        {
+            "title": "Ui Design",
+            "type": "Blog",
+             "url": "https://uilab.com.br/",
+            "keywords": [
+                "UI design",
+            ]
+        },
+        {
+            "title": "Aprendendo programação funcional com JavaScript",
+            "type": "Vídeo",
+             "url": "https://www.youtube.com/watch?v=e-5obm1G_FY&list=PLFIlIa2DY4kzQlsLEwYX3ZrwtahgSLFur&index=4&t=6s",
             "keywords": [
                 "JavaScript",
                 "Funcional"
