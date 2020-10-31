@@ -23,4 +23,5 @@ Construído com o framework Angular na versão 9, com código aberto e disponív
 - Commite suas modificações usando: <code>git commit -m 'feature: minha contruibuição'</code>
 - Suba o código para o repositorio remoto: <code>git push -u origin nome-da-branch</code>
 - Volte ao navegador e acesse o fork do seu projeto no github. Você verá que seu novo branch está listado no topo com um botão “Compare & pull request”:
-- Na página seguinte, assegure que o “base fork” aponta para o repositório e para o branch correto. Então, certifique-se de fornecer um título bom e sucinto para seu pull request e explique por que você o criou na caixa de descrição.
+- Na página seguinte, assegure que o “base fork” aponta para o repositório e para o branch correto. Então, certifique-se de fornecer um título bem sucinto para seu pull request e se quiser explique por que você o criou na caixa de descrição.
+- OBS: Se você abriu um PR com uma branch, precisa voltar para a branch main (git checkout main) e criar outra branch, porque senão, caso você não crie uma branch nova, estará atualizando o PR aberto.
