@@ -178,5 +178,11 @@ export default {
             url: 'https://graphql.org/learn/',
             keywords: ['GraphQL', 'Introduction', 'iniciante'],
         },
+        {
+            title: 'Spring Boot — Como criar uma aplicação do zero', 
+            type: 'Blog',
+            url: 'https://medium.com/@mvalho/spring-boot-como-criar-uma-aplica%C3%A7%C3%A3o-do-zero-parte-1-2c3098c0e900',
+            keywords: ['Spring', 'Java'],
+        },
     ],
 }
