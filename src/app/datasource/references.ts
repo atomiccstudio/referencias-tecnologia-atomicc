@@ -187,8 +187,14 @@ export default {
         {
             title: 'As dez mulheres mais importantes da história da tecnologia', 
             type: 'Site',
-            url: 'https://canaltech.com.br/software/10-sites-para-voce-aprender-a-programar/',
+            url: 'https://canaltech.com.br/internet/as-dez-mulheres-mais-importantes-da-historia-da-tecnologia-59485/',
             keywords: ['Mulheres', 'Programação'],
+        },
+        {
+        title: '10 sites para você aprender a programar', 
+            type: 'Site',
+            url: 'https://canaltech.com.br/software/10-sites-para-voce-aprender-a-programar/',
+            keywords: ['Programar', 'Dicas'],
         },
     ],
 }
