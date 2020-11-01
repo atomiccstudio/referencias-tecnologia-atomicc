@@ -178,5 +178,12 @@ export default {
             url: 'https://graphql.org/learn/',
             keywords: ['GraphQL', 'Introduction', 'iniciante'],
         },
+        {
+            title: 'Curso de desenvolvimento web',
+            type: 'Curso',
+            url:
+                'https://www.youtube.com/watch?v=Vx3UJw29JmU&list=PLXik_5Br-zO9xe9pqMROAjaMHiSzwsD0o',
+            keywords: ['desenvolvimento web', 'bootstrap', 'css'],
+        },
     ],
 }
