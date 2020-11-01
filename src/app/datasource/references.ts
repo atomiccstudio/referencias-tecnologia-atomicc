@@ -202,5 +202,11 @@ export default {
             url: 'https://www.devmedia.com.br/sql-basico/28877',
             keywords: ['SQL', 'Basico'],
         },
+        {
+        title: 'Aprendendo ABAP Por Conta Própria em 8 passos', 
+            type: 'Blog',
+            url: 'https://www.abapzombie.com/dicas-abap/2011/12/05/aprendendo-abap-conta-propria-8-passos/',
+            keywords: ['ABAP', 'Basico'],
+        },
     ],
 }
