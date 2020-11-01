@@ -178,5 +178,11 @@ export default {
             url: 'https://graphql.org/learn/',
             keywords: ['GraphQL', 'Introduction', 'iniciante'],
         },
+        {
+            title: 'Aprenda a testar aplicações Javascript',
+            type: 'Vídeo',
+            url: 'ttps://classes.vedovelli.com.br/?class=testar-aplicacoes-javascript-criacao-projeto-instalacao-jest',
+            keywords: ['Javascript', 'Tests', 'iniciante'],
+        },
     ],
 }
