@@ -1,6 +1,18 @@
 export default {
     links: [
+         {
+            title: 'opensource.com community',
+            type: 'Portal',
+            url: 'https://opensource.com/',
+            keywords: ['opensource', 'communiity'],
+        },
         {
+            title: 'VIPER in Android: The Practical Guide or How to Catch a Snake?',
+            type: 'Artigo',
+            url: 'https://medium.com/omisoft/https-medium-com-omisoft-viper-in-android-the-practical-guide-or-how-to-catch-a-snake-78cc17e96d63',
+            keywords: ['mobile', 'android', 'viper'],
+        },
+	{
             title: 'Cloud AWS: como funciona a computação em nuvem da Amazon',
             type: 'Artigo',
             url: 'https://teltecsolutions.com.br/mundo/cloud-aws',
