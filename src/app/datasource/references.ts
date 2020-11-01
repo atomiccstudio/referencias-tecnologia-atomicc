@@ -66,12 +66,6 @@ export default {
             keywords: ['JavaScript'],
         },
         {
-            title: 'Como funciona o JavaScript',
-            type: 'Artigo',
-            url: 'https://blog.sessionstack.com/tagged/tutorial',
-            keywords: ['JavaScript'],
-        },
-        {
             title: 'Artigos sobre Angular e React',
             type: 'Artigo',
             url: 'https://indepth.dev/',
@@ -177,6 +171,19 @@ export default {
             type: 'Artigo',
             url: 'https://graphql.org/learn/',
             keywords: ['GraphQL', 'Introduction', 'iniciante'],
+        },
+        {
+            title:
+                'Trilha de estudo para desenvolvedores e aspirantes: Do zero ao Angular',
+            type: 'Sitet',
+            url: 'http://novosaresnacarreira.pagina-oficial.com/home',
+            keywords: [
+                'aprender',
+                'do zero',
+                'angular',
+                'iniciante',
+                'transicao de carreira',
+            ],
         },
     ],
 }
