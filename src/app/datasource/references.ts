@@ -196,5 +196,11 @@ export default {
             url: 'https://canaltech.com.br/software/10-sites-para-voce-aprender-a-programar/',
             keywords: ['Programar', 'Dicas'],
         },
+        {
+        title: 'SQL Básico: Veja os comandos básicos de SQL', 
+            type: 'Site',
+            url: 'https://www.devmedia.com.br/sql-basico/28877',
+            keywords: ['SQL', 'Basico'],
+        },
     ],
 }
