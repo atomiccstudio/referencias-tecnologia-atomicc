@@ -178,5 +178,11 @@ export default {
             url: 'https://graphql.org/learn/',
             keywords: ['GraphQL', 'Introduction', 'iniciante'],
         },
+        {
+            title: 'Angular 7 Componentes',
+            type: 'Vídeo',
+            url: 'https://www.schoolofnet.com/curso/frontend/angular-7/angular-6-componentes/',
+            keywords: ['Angular', 'Javascript'],
+        },
     ],
 }
