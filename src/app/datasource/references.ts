@@ -1,5 +1,11 @@
 export default {
     links: [
+ 	{
+            title: 'opensource.com',
+            type: 'Portal',
+            url: 'https://opensource.com/',
+            keywords: ['opensource', 'communiity'],
+        },
         {
             title: 'VIPER in Android: The Practical Guide or How to Catch a Snake?',
             type: 'Artigo',
