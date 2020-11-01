@@ -1,6 +1,12 @@
 export default {
     links: [
         {
+            title: 'Why No One Understands Agile, SCRUM & DevOps & Why Perfect Technology Abstractions Are Sure To Fail',
+            type: 'Artigo',
+            url: 'https://www.forbes.com/sites/steveandriole/2020/10/01/why-no-one-understands-agile-scrum--devops--why-perfect-technology-abstractions-are-sure-to-fail/',
+            keywords: ['agile', 'scrum', 'metodology'],
+        },
+        {
             title: 'Cloud AWS: como funciona a computação em nuvem da Amazon',
             type: 'Artigo',
             url: 'https://teltecsolutions.com.br/mundo/cloud-aws',
