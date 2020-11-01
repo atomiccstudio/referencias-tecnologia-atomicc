@@ -196,5 +196,11 @@ export default {
             url: 'https://canaltech.com.br/software/10-sites-para-voce-aprender-a-programar/',
             keywords: ['Programar', 'Dicas'],
         },
+        {
+        title: 'Aprendendo ABAP Por Conta Própria em 8 passos!', 
+            type: 'Blog',
+            url: 'https://www.abapzombie.com/dicas-abap/2011/12/05/aprendendo-abap-conta-propria-8-passos/',
+            keywords: ['ABAP', 'Basico'],
+        },
     ],
 }
