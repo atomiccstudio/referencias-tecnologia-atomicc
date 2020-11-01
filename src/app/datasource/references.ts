@@ -178,5 +178,23 @@ export default {
             url: 'https://graphql.org/learn/',
             keywords: ['GraphQL', 'Introduction', 'iniciante'],
         },
+        {
+            title: 'Spring Boot — Como criar uma aplicação do zero', 
+            type: 'Blog',
+            url: 'https://medium.com/@mvalho/spring-boot-como-criar-uma-aplica%C3%A7%C3%A3o-do-zero-parte-1-2c3098c0e900',
+            keywords: ['Spring', 'Java'],
+        },  
+        {
+            title: 'As dez mulheres mais importantes da história da tecnologia', 
+            type: 'Site',
+            url: 'https://canaltech.com.br/internet/as-dez-mulheres-mais-importantes-da-historia-da-tecnologia-59485/',
+            keywords: ['Mulheres', 'Programação'],
+        },
+        {
+        title: '10 sites para você aprender a programar', 
+            type: 'Site',
+            url: 'https://canaltech.com.br/software/10-sites-para-voce-aprender-a-programar/',
+            keywords: ['Programar', 'Dicas'],
+        },
     ],
 }
