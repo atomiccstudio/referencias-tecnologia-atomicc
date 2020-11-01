@@ -183,6 +183,12 @@ export default {
             type: 'Blog',
             url: 'https://medium.com/@mvalho/spring-boot-como-criar-uma-aplica%C3%A7%C3%A3o-do-zero-parte-1-2c3098c0e900',
             keywords: ['Spring', 'Java'],
+        },  
+        {
+            title: 'As dez mulheres mais importantes da história da tecnologia', 
+            type: 'Site',
+            url: 'https://canaltech.com.br/software/10-sites-para-voce-aprender-a-programar/',
+            keywords: ['Mulheres', 'Programação'],
         },
     ],
 }
