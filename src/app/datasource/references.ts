@@ -1,6 +1,12 @@
 export default {
     links: [
         {
+            title: 'What is Work-Life Balance and Why is it Important to Encourage it?',
+            type: 'Artigo',
+            url: 'https://hygger.io/blog/what-is-work-life-balance/',
+            keywords: ['worklifebalaance', 'mindfulness'],
+        },
+        {
             title: 'Cloud AWS: como funciona a computação em nuvem da Amazon',
             type: 'Artigo',
             url: 'https://teltecsolutions.com.br/mundo/cloud-aws',
