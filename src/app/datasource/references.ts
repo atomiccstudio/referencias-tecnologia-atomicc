@@ -178,5 +178,17 @@ export default {
             url: 'https://graphql.org/learn/',
             keywords: ['GraphQL', 'Introduction', 'iniciante'],
         },
+        {
+            title: 'Aprenda a testar aplicações Javascript',
+            type: 'Vídeo',
+            url: 'https://classes.vedovelli.com.br/?class=testar-aplicacoes-javascript-criacao-projeto-instalacao-jest',
+            keywords: ['Javascript', 'Tests', 'iniciante'],
+        },
+        {
+            title: 'Build a movie search app in React',
+            type: 'Vídeo',
+            url: 'https://scrimba.com/learn/reactmovie',
+            keywords: ['Javascript', 'React'],
+        },
     ],
 }
