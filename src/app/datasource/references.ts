@@ -178,5 +178,12 @@ export default {
             url: 'https://graphql.org/learn/',
             keywords: ['GraphQL', 'Introduction', 'iniciante'],
         },
+        {
+            title: 'Curso wordpress - Criando um site do zero',
+            type: 'curso',
+            url:
+                'https://www.youtube.com/watch?v=JPR4OK4c35Q&list=PLHz_AreHm4dmDP_RWdiKekjTEmCuq_MW2',
+            keywords: ['wordpress', 'desenvolvimento de sites', 'web'],
+        },
     ],
 }
