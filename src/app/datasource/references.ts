@@ -196,5 +196,11 @@ export default {
             url: 'https://canaltech.com.br/software/10-sites-para-voce-aprender-a-programar/',
             keywords: ['Programar', 'Dicas'],
         },
+        {
+        title: 'IntelliJ IDEA para quem está começando', 
+            type: 'Site',
+            url: 'https://www.alura.com.br/artigos/dicas-e-truques-de-intellij-idea-para-quem-esta-comecando',
+            keywords: ['Programar', 'IDE'],
+        },
     ],
 }
