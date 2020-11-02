@@ -355,6 +355,15 @@ export default {
                 "Chatbot"
             ]
         },
+        {
+            "title": "React Native Documentação",
+            "type": "Documentação",
+            "url": "https://reactnative.dev/docs/getting-started",
+            "keywords": [
+                "React Native",
+                "Documentação"
+            ]
+        },
     ]
 }
 
