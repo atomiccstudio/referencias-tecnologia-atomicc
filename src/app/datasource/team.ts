@@ -68,6 +68,25 @@ export default {
             "urlReadMore": "https://www.linkedin.com/in/merciaoliveira",
             "bio": "Pessoa curiosa que adora fuçar e criar coisas. Atualmente trabalhando com desenvolvimento web. Tem como Hobby estudar todo o ecossistema da criação de jogos e desenvolver jogos.",
 
+        },
+        {
+            "key": "ana",
+            "name": "Ana Elisa Lins",
+            "city": "Recife",
+            "state": "Pernambuco",
+            "photo": "./assets/img/team/ana.jpeg",
+            "role": "UX Designer",
+            "company": "Accenture",
+            "office": "Atomicc Studio",
+            "socialNetworks": [
+                {
+                    "icon": "fa fa-linkedin",
+                    "url": "https://www.linkedin.com/in/ana-elisa-lins/",
+                },
+            ],
+            "urlReadMore": "https://www.linkedin.com/in/ana-elisa-lins/",
+            "bio": "Apaixonada por design e seu poder de resolver problemas. Atraída por desafios em torno de tecnologia, negócios e pessoas. Formada em Design desde 2013, concluindo especialização em Design de Interação em 2018. Atuo como UX Designer há mais de um ano na Accenture. Faço parte de um coletivo feminino cujo objetivo é apoiar e motivar o crescimento das mulheres na área de TI. Meu objetivo é colaborar com empresas que compreendem a importância do Design e me engajar em projetos nos quais me identifico, contribuindo para transformar a vida das pessoas.",
+
         }
     ]
 }
