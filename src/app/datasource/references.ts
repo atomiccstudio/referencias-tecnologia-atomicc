@@ -475,6 +475,15 @@ export default {
                 "Ux design",
                 "user experience"
             ]
+        },
+        {
+            "title": "Ux Collective - artigos de UX Design",
+            "type": "Blog",
+             "url": "https://brasil.uxdesign.cc/",
+            "keywords": [
+                "user experience",
+                "ux design"
+            ]
         }
     ]
 }
