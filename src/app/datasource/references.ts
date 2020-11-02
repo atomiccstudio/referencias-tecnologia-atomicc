@@ -466,6 +466,15 @@ export default {
                 "React Native",
                 "Documentação"
             ]
+        },
+        {
+            "title": "Canal sobre UX Design",
+            "type": "Youtube",
+             "url": "https://www.youtube.com/c/UXNOW",
+            "keywords": [
+                "Ux design",
+                "user experience"
+            ]
         }
     ]
 }
