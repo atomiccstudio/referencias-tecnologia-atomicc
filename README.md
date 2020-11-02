@@ -8,7 +8,7 @@ Construído com o framework Angular na versão 9, com código aberto e disponív
 
 ## 💻 Como começar
 
-1. Dê um fork neste repositório e o clone localmente
+1. Dê um fork neste repositório, vá até  seu repositório forkado no seu github e o clone localmente
 2. Entre no diretório: <code>cd referencias-tecnologia-atomicc</code>
 3. Rode o comando <code>npm install</code> para instalar as dependências
 4. Rode o comando <code>npm run start:local</code> ou <code>ng serve</code> para rodar a aplicação
@@ -16,10 +16,12 @@ Construído com o framework Angular na versão 9, com código aberto e disponív
 
 ## :tada: Contribuindo
 
+- Primeiro se cadatre no site do Hacktoberfest (valendo até 23:59h de hoje) para que fazendo 4 PRs (pull requests) você ganhe o kit oficial com camisa e adesivos: https://hacktoberfest.digitalocean.com/
 - Conecte seu local com o repositório original (upstream) o adicionando como remoto através do comando <code>git remote add upstream https://github.com/atomiccstudio/referencias-tecnologia-atomicc.git</code>
-- Matenha seu repositório forkado sempre atualizado rodando frequentemente o comando <coode>git fetch upstream</code>
-- Crie uma nova nova com a sua contribuição <code>git checkout -b nome-da-branch</code>
+- Matenha seu repositório forkado sempre atualizado rodando frequentemente o comando <code>git fetch upstream && git pull upstream main</code>
+- Crie uma nova branch com a sua contribuição <code>git checkout -b nome-da-branch</code> (OBS: Sempre crie suas branchs a partir da branch main, e garanta que sua main está atualizada rodando antes o comand <code>git pull upstream main</code>
 - Commite suas modificações usando: <code>git commit -m 'feature: minha contruibuição'</code>
 - Suba o código para o repositorio remoto: <code>git push -u origin nome-da-branch</code>
 - Volte ao navegador e acesse o fork do seu projeto no github. Você verá que seu novo branch está listado no topo com um botão “Compare & pull request”:
-- Na página seguinte, assegure que o “base fork” aponta para o repositório e para o branch correto. Então, certifique-se de fornecer um título bom e sucinto para seu pull request e explique por que você o criou na caixa de descrição.
+- Na página seguinte, assegure que o “base fork” aponta para o repositório e para o branch correto. Então, certifique-se de fornecer um título bem sucinto para seu pull request e se quiser explique por que você o criou na caixa de descrição.
+- OBS: Se você abriu um PR com uma branch, precisa voltar para a branch main (git checkout main) e criar outra branch, porque senão, caso você não crie uma branch nova, estará atualizando o PR aberto.
