@@ -291,6 +291,12 @@ export default {
             keywords: ['Django', 'Frameworks'],
         },
         {
+            title: 'Tutorial de Django',
+            type: 'Site',
+            url: 'https://tutorial.djangogirls.org/pt/',
+            keywords: ['Django', 'Frameworks'],
+        },
+        {
             title: 'Curso de JavaScript e ECMAScript para Iniciantes',
             type: 'Video',
             url:
