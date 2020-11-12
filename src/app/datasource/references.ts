@@ -316,6 +316,12 @@ export default {
             keywords: ['api', 'rest', 'restfull'],
         },
         {
+            title: 'Rxjs: observables no Angular',
+            type: 'Site',
+            url: 'https://rxjs.dev/',
+            keywords: ['documentação', 'Observable', 'Angular'],
+        },
+        {
             title: 'Como usar Git e Github na prática: Guia para iniciantes',
             type: 'Vídeo',
             url: 'https://www.youtube.com/watch?v=2alg7MQ6_sI',
