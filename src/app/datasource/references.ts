@@ -503,6 +503,15 @@ export default {
                 "Leitura"
             ]
         }
+        {
+            "title": "Canal Design Team",
+            "type": "Video",
+            "url": "https://www.youtube.com/channel/UCTkZTDIq25Czsazq2N493Cg",
+            "keywords": [
+                "Design",
+                "Videos"
+            ]
+        }
     ]
 }
 
