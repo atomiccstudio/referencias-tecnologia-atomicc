@@ -502,6 +502,33 @@ export default {
                 "UX",
                 "Leitura"
             ]
+        },
+        {
+            "title": "Canal Design Team",
+            "type": "Video",
+            "url": "https://www.youtube.com/channel/UCTkZTDIq25Czsazq2N493Cg",
+            "keywords": [
+                "Design",
+                "Videos"
+            ]
+        },
+        {
+            "title": "UI: Botões e suas configurações visuais",
+            "type": "Artigo",
+            "url": "https://medium.com/tableless/botoes-em-ui-design-e8e8a7473747",
+            "keywords": [
+                "UI",
+                "Leitura"
+            ]
+        },
+        {
+            "title": "UI: Dicas de uso de tipografia",
+            "type": "Artigo",
+            "url": "https://medium.com/ui-lab-school/voc%C3%AA-sabe-usar-tipografia-em-ui-design-9ce4ccdbab43",
+            "keywords": [
+                "UI",
+                "Leitura"
+            ]
         }
     ]
 }
